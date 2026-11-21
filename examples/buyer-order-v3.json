@@ -1,0 +1,49 @@
+{
+  "schema": "dexdo.buyer.submit.v3",
+  "note_addr": "0:1111111111111111111111111111111111111111111111111111111111111111",
+  "order_book": "0:2222222222222222222222222222222222222222222222222222222222222222",
+  "intent": {
+    "kind": "on_demand",
+    "predecessor_token_contract": null
+  },
+  "expected_token_contract": "0:3333333333333333333333333333333333333333333333333333333333333333",
+  "quoted_order": {
+    "order_id": 731,
+    "owner_note": "0:4444444444444444444444444444444444444444444444444444444444444444",
+    "token_contract": "0:3333333333333333333333333333333333333333333333333333333333333333",
+    "is_buy": false,
+    "price_per_tick": 1000000000,
+    "ticks": 20,
+    "escrow": 0,
+    "deadline": 1800000050,
+    "flags": 0,
+    "timestamp": 1800000000
+  },
+  "quote": {
+    "filled_ticks": 2,
+    "total_with_fee": 2050000000,
+    "complete": true,
+    "fills": [
+      {
+        "order_id": 731,
+        "token_contract": "0:3333333333333333333333333333333333333333333333333333333333333333",
+        "ticks": 2,
+        "price_per_tick": 1000000000,
+        "cost_with_fee": 2050000000
+      }
+    ]
+  },
+  "cursor": {
+    "since_unix": 1800000000,
+    "last_seen_created_at": null,
+    "seen_token_contracts_at_last_seen": []
+  },
+  "ticks": 2,
+  "max_price_per_tick": 1000000000,
+  "escrow": 2050000000,
+  "order_id": 1052,
+  "submit_identity": "boc-sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "created_at_unix": 1800000000,
+  "resolved_match": null,
+  "resolved_matches": []
+}

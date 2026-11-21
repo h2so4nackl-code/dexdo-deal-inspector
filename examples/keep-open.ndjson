@@ -1,0 +1,5 @@
+{"schema": "dexdo.buyer.event.v2", "seq": 1, "session_id": "buyer-aabbcc", "operation": "buyer_start", "event": "resume_selected", "source": "durable_journal"}
+{"schema": "dexdo.buyer.event.v2", "seq": 2, "session_id": "buyer-aabbcc", "operation": "buyer_start", "event": "handover_waiting"}
+{"schema": "dexdo.buyer.event.v2", "seq": 3, "session_id": "buyer-aabbcc", "operation": "buyer_start", "event": "handover_received"}
+{"schema": "dexdo.error.v1", "seq": 4, "session_id": "buyer-aabbcc", "operation": "buyer_runtime", "event": "error", "code": "GATEWAY_CONNECT_FAILED", "message": "example diagnostic containing TEST-PRIVATE-MARKER", "endpoint": "https://example.invalid/TEST-PRIVATE-MARKER"}
+2026-11-21T12:00:00Z  INFO dexdo::cli::buyer: policy_action failure_class=dead_gateway action=keep_open token_contract=TEST-PRIVATE-MARKER state=funded/opened result=deal_kept_open next_action=retry_on_same_deal
